@@ -1,0 +1,25 @@
+:root {
+    --white: #fff;
+    --primary: rgb(251, 116, 19);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --darker-blue: hsl(216, 12%, 8%);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background: var(--darker-blue);
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  body, input, textarea, button {
+      font-family: 'Overpass', sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+  }
