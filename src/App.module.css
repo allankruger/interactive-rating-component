@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--dark-blue);
+    max-width: 40rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+    color: var(--medium-grey);
+}
+
+.card h1 {
+    color: var(--white);
+}
+
+.ratings {
+    list-style-type: none;
+    display: flex;
+    color: var(--medium-grey);
+}
+
+.button {
+    background-color: var(--primary);
+    color: var(--white);
+    width: 90%;
+    border: 0;
+    border-radius: 10px;
+    height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
