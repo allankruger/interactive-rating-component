@@ -1,9 +1,13 @@
 import "./global.css";
 import styles from "./App.module.css";
+import iconStar from "./assets/icon-star.svg";
 
 export function App() {
   return (
     <div className={styles.card}>
+      <div className={styles.icon}>
+        <img src={iconStar} alt="Icon star" />
+      </div>
       <h1>How did we do?</h1>
 
       <p>
