@@ -87,3 +87,19 @@
   transition: 0.3s;
   cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+  .ratings li {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .ratings li {
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
