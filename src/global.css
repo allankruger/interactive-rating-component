@@ -1,10 +1,10 @@
 :root {
     --white: #fff;
-    --primary: rgb(251, 116, 19);
-    --light-grey: hsl(217, 12%, 63%);
-    --medium-grey: hsl(216, 12%, 54%);
-    --dark-blue: hsl(213, 19%, 18%);
-    --darker-blue: hsl(216, 12%, 8%);
+    --primary: #fb7413;
+    --light-grey: #959eac;
+    --medium-grey: #7c8798;
+    --dark-blue: #252d37;
+    --darker-blue: #121417;
   }
   
   * {
